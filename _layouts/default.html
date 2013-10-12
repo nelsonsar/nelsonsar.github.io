@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog | Nelson Senna</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ site.url }}/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="{{ site.url }}/css/site.css" rel="stylesheet" media="screen">
+        <link href="{{ site.url }}/css/prism.css" rel="stylesheet" media="screen">
+        <!--[if lt IE 9]>
+            <script src="{{ site.url }}/js/html5shiv.js"></script>
+            <script src="{{ site.url }}/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="container">
+            <div class="col-md-3">
+                {% include sidebar.html %}
+            </div>
+            <div class="col-md-6">
+                <div class="post_title">{{ page.title }}</div>
+                {{ content }}
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <script src="{{ site.url}}/js/jquery.min.js"></script>
+        <script src="{{ site.url}}/js/prism.js"></script>
+        <script src="{{ site.url}}/js/bootstrap.min.js"></script>
+    </body>
+</html>
