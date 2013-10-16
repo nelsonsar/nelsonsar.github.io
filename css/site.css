@@ -39,7 +39,18 @@ body {
     margin-bottom: 10px;
 }
 
-.sidebar a:hover {
+.sidebar a:hover, a:visited {
     text-decoration: none;
 }
 
+.inline-code {
+    display: inline-block;
+}
+
+span.inline-code > pre  {
+    padding: 5px;
+}
+
+pre {
+    background-color: rgb(253, 246, 227);
+}
