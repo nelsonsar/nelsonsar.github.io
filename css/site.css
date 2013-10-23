@@ -58,3 +58,7 @@ pre {
 .post_title {
     font-size: 25px;
 }
+
+p {
+    padding: 5px;
+}

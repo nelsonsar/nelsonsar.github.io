@@ -8,15 +8,15 @@ Essa é a versão 1 do *Vagrantfile*:
 Vagrant::Config.run do |config|
 
   config.vm.box = "precise64"
-  config.vm.host_name = "cecap"
+  config.vm.host_name = "blog"
   config.vm.box_url = "http://files.vagrantup.com/precise64.box"
-  config.vm.share_folder("cecap", "/var/www/cecap", "..", :extra => 'dmode=777,fmode=777')
+  config.vm.share_folder("blog", "/var/www/blog", "..", :extra => 'dmode=777,fmode=777')
   config.vm.forward_port 80, 8099
   config.vm.forward_port 443, 44399
 
   config.vm.provision :puppet do |puppet|
     puppet.manifests_path = "manifests"
-    puppet.manifest_file = "cecap.pp"
+    puppet.manifest_file = "blog.pp"
     puppet.module_path = "modules"
   end
 
