@@ -83,6 +83,13 @@ Dica 1: use o ```chown``` para mudar o dono da pasta ```/opt/rabbitmq```, caso s
 
 Dica 2: faça [links simbólicos](http://www.cyberciti.biz/tips/understanding-unixlinux-symbolic-soft-and-hard-links.html) dos binários encontrados na pasta ```sbin``` para a pasta ```/usr/local/sbin``` ou ```/usr/local/sbin```, assim você pode usar os binários em qualquer lugar do sistema operacional (não vai precisar ficar digitando o caminho absoluto ou relativo dos binários).
 
+Dica 3: Outras fontes que podem ser úteis como foram pra mim:
+
+* [Documentação do RabbitMQ](http://www.rabbitmq.com/install-generic-unix.html);
+* [Post](http://blog.eriksen.com.br/pt-br/instalar-rabbitmq-com-ultima-versao-erlang-no-debian) do grande [Eriksen Costa](https://twitter.com/eriksencosta) sobre a instalação do RabbitMQ no Debian;
+* [Hello World em Erlang](http://dsingleton.co.uk/blog/erlang-beginners-tutorial);
+* [Diferenças entre as pastas bin no linux](http://superuser.com/questions/325194/what-are-the-meanings-of-usr-sbin-usr-local-sbin-and-usr-local-bin).
+
 ## Considerações finais ##
 
 Tentei fazer o tutorial mais genérico possível e que cobrisse a maior parte de distribuições também. A parte que talvez possa lhe trazer problema é a instalação do Erlang por causa das dependências e, por isso aconselho você usar uma VM para fazer o teste, dessa forma você pode testar quantas vezes lhe for necessário.
