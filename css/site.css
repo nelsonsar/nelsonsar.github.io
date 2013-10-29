@@ -64,5 +64,22 @@ p {
 }
 
 h2 {
+    font-size: 20px;
+}
+
+h3 {
     font-size: 18px;
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
 }
