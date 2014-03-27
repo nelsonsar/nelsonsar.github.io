@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/nelsonsar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nelsonsar.github.io
+  * I am nelsonsar (https://keybase.io/nelsonsar) on keybase.
+  * I have a public key with fingerprint 805C CAFC D0AF F667 5939  2B4B 7895 35B2 4BDA 90D6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "805ccafcd0aff66759392b4b789535b24bda90d6",
+            "host": "keybase.io",
+            "key_id": "789535b24bda90d6",
+            "uid": "fdb0d8b8fddadde00eb27ac409b8b100",
+            "username": "nelsonsar"
+        },
+        "service": {
+            "hostname": "nelsonsar.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396451224,
+    "expire_in": 157680000,
+    "prev": "575402d9e650f97118583c14660634f71b89fabaa30741b1eb12bd6cf5f6ff2d",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMH7AnicbZFbTBRXGMd3BQpsXAImNfVBA1Ok0RCcmZ3rcqkJoSHKxWY1NYtkO2fO
+md2pMLOdmV1ktzSlJhB5aBvXFvqiaUsvmJI+NMDGlYqmXggVUhJsBWJiUwsh8KDZ
+pKghyxnUF+N5OTn/8/t+38n5fndnOVzO+rlM6on7t0Hn1MTTiMNX9dZAnAA67CS8
+ceIk2toUVQsiI2yomkV4CYFkZVlSZEhKisJxPCt6RBowgBdE1sMCmgFQEknIEeVE
+SDftCqwBkokqVB1n+BBQIU5fwUe2LhQISCgAQYFQghCRJAI0L8kMKQIBUCRpgyYy
+NKkdYVpDbaaumZJBdJUTOI6qMo7jW71fRiqCqhWKgGcPCRu6pct6GwZClhU2vbbA
+6gzbFR0IBJ67AkDVIP4AXBFFhqnqGuGlMClbqi2nPCLHsBRNM+UEOhVWDRRQbYLl
+OYHEy+6DoljJ8ixD0lBEHEsqIk9RAit4ZIrhOJLzMApPAUFUJCBJHpJnKEAhQNEA
+crLCKpyi0BD3N9GHmo7dWGpJQew01aAmWREDEV3XJk5kO5wux2s52+wZOlz5hS8m
+W9+bm3mv5aOU8ElpzDxY+ONRZ8/p5sS3M9XLfn/Hrua6kkT/N5+v5a//0jSf6Lu3
+31eUqM67uBDbuF79aeuvO48v1Exu+MtcnP62eTZr7gswmC66O3ws2/qy+3LPOwfy
++quGhtt9fT8l/2NHSl0/93+w5wpxaGjjxrmS2bKVUGVBcer97kbfSFa7Mf5g1r/8
+MGo0NCTj342+nopNX53nv1YPv7k4G8vMuL//a9/0peyC243JdwcTTe7xv1tTteZY
+8paj7sJq7krLH+j+P5HixbU3dp9fXRr76sjAne6cH/b+W/hY6j3zWWYyJ70+WrU9
+smM9lIkNTPm6aj5euvkIpv/3+NO1lX+GNgE7tB2N
+=WfBw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nelsonsar
+
+==================================================================
