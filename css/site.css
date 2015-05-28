@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', serif;
     font-size: 17px;
+    line-height: 1.8;
 }
 
 #container {
@@ -60,10 +61,6 @@ span.inline-code > pre  {
 
 pre {
     background-color: rgb(245, 242, 240);
-}
-
-.post_title {
-    font-size: 25px;
 }
 
 p {
