@@ -1,3 +1,5 @@
 timezone: America/Sao_Paulo
 layout: default
 markdown: kramdown
+gems:
+    - jekyll-sitemap
