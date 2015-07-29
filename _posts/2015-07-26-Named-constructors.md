@@ -23,7 +23,7 @@ class Color
     {
         $this->red = $red;
         $this->green = $green;
-        $this->blue = blue;
+        $this->blue = $blue;
     }
 
     public function toHexadecimal()
@@ -72,7 +72,7 @@ class Color
     {
         $this->red = $red;
         $this->green = $green;
-        $this->blue = blue;
+        $this->blue = $blue;
     }
 
     public static function black()
