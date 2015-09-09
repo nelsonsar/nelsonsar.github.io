@@ -3,26 +3,19 @@ layout: default
 title: "Aprendendo uma nova linguagem"
 ---
 
-## Motivação
-
-Acabei de voltar de um intercâmbio na Nova Zelândia e vi que ser fluente numa língua é muito mais que conhecer algumas nuances dela. Antes de sair do Brasil achava que meu inglês era excelente porque sempre li e ultimamente tenho escrito bastante coisa usando inglês, chegando lá vi que a história era outra... E, agora que estou tentando aprender uma outra linguagem de programação achei interessante tentar traçar esse paralelo: Aprender inglês (ou qualquer outra língua) e aprender uma nova linguagem de programação.
-
-Os principais problemas que enfrentei usando inglês praticamente o dia inteiro foram:
-
-* Insegurança e regressão;
-* Vícios;
-* Sotaque e gírias;
-* Não ser fluente;
-
 Assim como aprender uma nova língua, aprender uma nova linguagem de programação é no mínimo frustrante. O mais foda é você não conseguir se comunicar direito e nem mesmo com as ideias bem organizadas na sua cabeça você não consegue botar elas pra fora com clareza.
 
-## Insegurança e regressão
+Agora que estou tentando aprender uma outra linguagem de programação achei interessante tentar traçar esse paralelo: Aprender inglês (ou qualquer outra língua) e aprender uma nova linguagem de programação.
 
-A primeiro desafio foi vencer a insegurança. A sensação de voltar a ter 5 anos é horrível. Você conhece algumas palavras, consegue usar construções básicas da língua, mas, mesmo assim exige do ouvinte um esforço homérico pra entender. A dificuldade em se comunicar aliada aos erros consecutivos vão minando sua confiança e começam a te tornar inseguro, pelo menos, foi assim comigo. Passei a pensar muito mais do que estava acostumado para falar qualquer coisa (o que é um erro gravíssimo) e, tornei o ato de falar comigo meio chato.
+Como acabei de voltar de um intercâmbio na Nova Zelândia e vi que ser fluente numa língua é muito mais que conhecer algumas nuances dela. Antes de sair do Brasil achava que meu inglês era excelente porque sempre li e ultimamente tenho escrito bastante coisa usando inglês, chegando lá vi que a história era outra...
 
-A insegurança faz também com que nós desenvolvedores demoraremos muito mais para dar um passo para frente e até para trás. Parece que até estruturas comuns são um bicho de sete cabeças - imagine que fazer um ```for``` sem consulta na documentação não parece uma boa ideia.
+## Falta de confiança e regressão
 
-A regressão é natural e, a menos que você esteja muito disposto a aprender, ela vai acabar te derrubando. Cansa não conseguir se comunicar direito. Enche o saco pra caralho você ter que se esforçar o triplo pra entender alguma coisa. Claro, que no caso de morar fora do país eu não tinha muita opção de desistir, mas, teve muita hora que eu, literalmente, mandei gente se foder porque eu não tava afim, ou seja, desistir e abrir mão de qualidade por cansaço passa a não te incomodar tanto.
+A primeiro desafio foi vencer a falta de confiança. A sensação de voltar a ter 5 anos é horrível. Você conhece algumas palavras, consegue usar construções básicas da língua, mas, mesmo assim exige do ouvinte um esforço homérico pra entender. A dificuldade em se comunicar aliada aos erros consecutivos vão minando, ainda mais, sua confiança e começam a te tornar inseguro, pelo menos, foi assim comigo. Passei a pensar muito mais do que estava acostumado para falar qualquer coisa (o que é um erro gravíssimo) e, tornei o ato de falar comigo meio chato.
+
+A falta de confiança faz também com que nós desenvolvedores demoraremos muito mais para dar um passo para frente e até para trás. Parece que até estruturas comuns são um bicho de sete cabeças - imagine que fazer um ```for``` sem consulta na documentação não parece uma boa ideia.
+
+A regressão (a sensação de ter 5 anos) é natural e, a menos que você esteja muito disposto a aprender, ela vai acabar te derrubando. Cansa não conseguir se comunicar direito. Enche o saco pra caralho você ter que se esforçar o triplo pra entender alguma coisa. Claro, que no caso de morar fora do país eu não tinha muita opção de desistir, mas, teve muita hora que eu, literalmente, mandei gente se foder porque eu não tava afim, ou seja, desistir e abrir mão de qualidade por cansaço passa a não te incomodar tanto.
 
 ## Vícios
 
@@ -34,17 +27,19 @@ A frase *"is very good to be here"* parece estar correta e pra gente é bem fác
 
 Para vencer esses vícios é importante não tentar resolver um problema como se estivesse na sua língua nativa, pesquise e pergunte como os nativos resolvem o problema que você está enfrentando.
 
-## Sotaque e gírias
-
-Essa é a parte mais foda: entender o que outra pessoa está tentando te dizer. Um sotaque diferente ou qualquer gíria podem (e geralmente vão) prejudicar seu entendimento. O sotaque de uma linguagem de programação são os padrões que ela usa para as construções conhecidas como o ```foreach```, que no caso do PHP usa ```as``` e no C# usa-se ```in```. As gírias são a criação de novas construções que facilitam a comunicação, como o ```list``` do PHP que te permite popular variáveis a partir de um ```array```. Por isso é importante conhecer os coding standards da linguagem e sempre ler código dos "locais" pra saber como fazer isso e aquilo, assim, uma construção diferente não vai te pegar de surpresa.
-
-E, é claro que não preciso dizer que a sintaxe é essencial, né? Não vai adiantar nada tentar aprender inglês escrevendo sempre em português...
-
 ## Não ser fluente
 
 Desse aqui não tem como escapar e, nem é bem um problema... Tá mais pra uma consequência do desafio. A maior preocupação aqui é a incapacidade de entender de bate pronto o que está escrito ou como interpretar o contexto sem entender muito bem o significado de algumas construções e até palavras (métodos). O que mais recordo é pedir pra atendente do McDonalds repetir três vezes o que ela disse e ela só tinha perguntado: "Have it here or take away?" (HAHAHAHAHAHA).
 
 A experiência e, claro, a prática fazem com que esse problema seja de todos os mais passageiro.
+
+## Sotaque e gírias
+
+Ser fluente, infelizmente, não garante que você entenda TUDO. Um exemplo simples é fazer um português tentar acompanhar uma conversa entre dois paulistanos. São tantas gírias e a gente fala tão rápido, que fica bem foda de entender tudo e entender certo.
+
+Um sotaque diferente ou qualquer gíria podem (e geralmente vão) prejudicar seu entendimento. O sotaque de uma linguagem de programação são os padrões que ela usa para as construções conhecidas como o ```foreach```, que no caso do PHP usa ```as``` e no C# usa-se ```in```. As gírias são a criação de novas construções que facilitam a comunicação, como o ```list``` do PHP que te permite popular variáveis a partir de um ```array```. Por isso é importante conhecer os coding standards da linguagem e sempre ler código dos "locais" pra saber como fazer isso e aquilo, assim, uma construção diferente não vai te pegar de surpresa.
+
+E, é claro que não preciso dizer que a sintaxe é essencial, né? Não vai adiantar nada tentar aprender inglês escrevendo sempre em português...
 
 ## A conclusão do paralelo
 
@@ -57,3 +52,4 @@ Os passos que estou seguindo para não cair nos mesmos erros do inglês são ess
 3) O único caminho pra vencer a insegurança e a regressão é ser fluente e, para isso é preciso estudar e praticar sempre que possível. Procure recursos, troque ideia com pessoas experientes e corra atrás!
 
 4) Vá viajar, conheça coisas e pessoas novas! Esse é o melhor jeito de expandir seu conhecimento e viver novas experiências!
+
