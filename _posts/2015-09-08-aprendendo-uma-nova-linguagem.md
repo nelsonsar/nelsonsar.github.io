@@ -57,3 +57,4 @@ Os passos que estou seguindo para não cair nos mesmos erros do inglês são ess
 
 4) Vá viajar, conheça coisas e pessoas novas! Esse é o melhor jeito de expandir seu conhecimento e viver novas experiências!
 
+5) Agradecer o [Augusto](https://twitter.com/augustohp) pela revisão, sem ele este post não faria tanto sentido :)
