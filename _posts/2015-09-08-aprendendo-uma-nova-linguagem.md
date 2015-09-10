@@ -1,6 +1,10 @@
 ---
 layout: default
 title: "Aprendendo uma nova linguagem"
+related: [
+    "Não retorne null! E retorno o que, então?",
+    "O que eu li e pretendo ler em breve"
+]
 ---
 
 Assim como aprender uma nova língua, aprender uma nova linguagem de programação é no mínimo frustrante. O mais foda é você não conseguir se comunicar direito e nem mesmo com as ideias bem organizadas na sua cabeça você não consegue botar elas pra fora com clareza.
