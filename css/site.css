@@ -102,3 +102,7 @@ h3 {
     display: block;
     margin: auto;
 }
+
+.related {
+    padding-left: 20px;
+}
