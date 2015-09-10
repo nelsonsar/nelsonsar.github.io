@@ -1,6 +1,11 @@
 ---
 layout: default
 title: "Instalando o RabbitMQ no Linux"
+related: [
+    "RabbitMQ: Um pouco sobre mensagens",
+    "RabbitMQ: Tipos de exchange",
+    "AMQP Building blocks"
+]
 ---
 
 Instalar o RabbitMQ no Linux é uma tarefa simples. Você pode usar o seu gerenciador de pacotes e simplesmente procurar pelo pacote do RabbitMQ e instalar como você faz normalmente com outros pacotes. Os dois problemas principais que vejo fazendo isso são:

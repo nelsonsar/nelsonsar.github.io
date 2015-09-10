@@ -1,6 +1,11 @@
 ---
 layout: default
 title: "AMQP Building blocks"
+related: [
+    "RabbitMQ: Um pouco sobre mensagens",
+    "RabbitMQ: Tipos de exchange",
+    "Instalando o RabbitMQ no Linux"
+]
 ---
 O protocolo [AMQP](http://rubydoc.info/github/ruby-amqp/amqp/master/file/docs/AMQP091ModelExplained.textile) visa padronizar a interação entre clientes e o *middleware* de "mensageria" os famosos *brokers*. Para entender como o protocolo funciona é necessário conhecer seus componentes e como se dá a integração entre eles.
 

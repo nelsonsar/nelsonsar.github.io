@@ -1,6 +1,11 @@
 ---
 layout: default
 title: "RabbitMQ: Tipos de exchange"
+related: [
+    "RabbitMQ: Um pouco sobre mensagens",
+    "AMQP Building blocks",
+    "Instalando o RabbitMQ no Linux"
+]
 ---
 
 ## Exchanges ##

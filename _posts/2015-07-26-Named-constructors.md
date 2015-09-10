@@ -1,6 +1,9 @@
 ---
 layout: default
 title: "Named constructors"
+related: [
+    "Não retorne null! E retorno o que, então?"
+]
 ---
 
 O que fazer quando você quer construir um objeto e tem aquele parâmetro opcional, aquela coisa que o usuário pode definir e que você não tem muito controle sobre ou ainda que você pode usar um padrão caso o usuário não defina? Por exemplo, o timezone na classe ```DateTime``` do próprio PHP que tem algumas variações de construção. Como posso evitar passar ```null``` no construtor da minha classe? E por que deveria me preocupar com isso?

@@ -1,6 +1,11 @@
 ---
 layout: default
 title: "RabbitMQ: Um pouco sobre mensagens"
+related: [
+    "RabbitMQ: Tipos de exchange",
+    "Instalando o RabbitMQ no Linux",
+    "AMQP Building blocks"
+]
 ---
 
 Durante a série de posts sobre o RabbitMQ falei dos componentes do protocolo AMQP e dei também uma atenção especial para os tipos de **exchange**, neste post darei atenção para as famosas **mensagens**, mais especificamente, falarei sobre seu ciclo de vida.

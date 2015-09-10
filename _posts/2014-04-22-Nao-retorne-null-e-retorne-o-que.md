@@ -1,6 +1,10 @@
 ---
 layout: default
 title: "Não retorne null! E retorno o que, então?"
+related: [
+    "Named constructors",
+    "O que eu li e pretendo ler em breve"
+]
 ---
 
 No capítulo 7 do excelente [Clean Code](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) o Uncle Bob é enfático:
