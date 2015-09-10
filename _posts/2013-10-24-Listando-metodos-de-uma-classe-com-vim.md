@@ -5,7 +5,7 @@ title: "Vim: Listando métodos de uma classe"
 
 Hoje me deparei com uma classe gigantesca e precisa listar rapidamente seus métodos. Então, matutei como eu poderia compor uma lista de métodos no vim e cheguei nessa solução bem fácil.
 
-![resultado](http://i.imgur.com/P2Y6UUF.png?1)
+<img class="img-responsive" src="http://i.imgur.com/P2Y6UUF.png?1" alt="resultado" />
 
 No **command mode** do seu vim digite ```vimgrep /on .*(/ %```.
 
