@@ -113,6 +113,24 @@ Finally, we've completed a TDD cycle and we can solve the problem by exchanging 
 
 After doing 5 or 6 exercises you should be able to identify what need to be tested and how to achieve the result by repeating the Red, Green, Refactor mantra and it's time to find new ways to improve your TDD skills!
 
-If you want to try but have no idea how to start, please send me a message and I'll be pleased to help you out with your first problem/test!
+## A word about tests and TDD
+
+This section was written by [Marcelo](https://twitter.com/MarcVit). He used Project Euler to practice TDD with me, so he could practice it at his home too, and I'm pretty stoked with this wonderful insight (you can read it below).
+
+When I started doing TDD, I thought it had a strong message. A simple set of rules that will automatically improve the design of your solution, make you better understand the relationship between your objects, promote loose coupling and, above all, **it will make you stay focused on what matters**.
+
+It's really impressive how TDD proves its points real quick. The first image that came to mind when I thought about it was the "input - work - output" scenario that we see in programming. Generally, your code receives an input from the user or the system, it does something with that data, and it outputs or returns the result. TDD makes you concentrate on the part of your code that gets the job done, by enforcing an expected result, given a specific input.
+
+Before writing any "production code" - or code that will actually solve your problem - you start by saying that, "When the input is X, I expect the result to be Y". The test will fail at start, but now you're free to work on the solution, exercising the code at every step you make towards the Green stage. When the test passes, you're done. Don't forget the refactoring step, though. As previously stated, you can't skip it.
+
+Another thing that testing will do for you: **it will make you feel safe**. Imagine that you just arrived at a company, and your leader wants you to push code to production right away. Fortunately for you, the codebase has tests. By enforcing the constraints of the code, the test will assert that, given the input X, the result is Y.
+
+Now, you feel comfortable to make any changes you want, since you can always run the test and see if it passes. If it fails, you can always go back to a state before that, and start over. A year from now, you'll be writing tests for a new functionality, and those tests will protect your code against your own mistakes - when changing it in the future - and against newcomers' mistakes, when getting their hands on it for the first time.
+
+## Finale
+
+Don't wait for katas or dojos to try something new. Start by doing simple things and ask for feedback!
+
+So, if you want to try but have no idea how to start, please send me a message and I'll be pleased to help you out with your first problem/test!
 
 Hope it helps!
