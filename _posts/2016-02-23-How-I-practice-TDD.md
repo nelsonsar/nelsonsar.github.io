@@ -131,6 +131,6 @@ Now, you feel comfortable to make any changes you want, since you can always run
 
 Don't wait for katas or dojos to try something new. Start by doing simple things and ask for feedback!
 
-So, if you want to try but have no idea how to start, please send me a message and I'll be pleased to help you out with your first problem/test!
+And if you want to try but have no idea how to start, please send me a message and I'll be pleased to help you out with your first problem/test!
 
 Hope it helps!
