@@ -1,7 +1,11 @@
 ---
 layout: default
-title: "TDD: How to start"
+title: "TDD: How to use Math to get into it"
 ---
+
+## Acknowledgments
+
+I'd like to thank [Marcelo Vitoria](https://twitter.com/MarcVit) for his review and opinions that made this post readable, [Augusto Pascutti](https://twitter.com/augustohp) and [Eriksen Costa](https://twitter.com/eriksencp) for reviewing, feedback and references. Without they effort and precious time this post would not be possible.
 
 ## Who wants to start?
 
@@ -37,7 +41,7 @@ So, why you need to think about all this stuff when you're learning TDD?! It doe
 
 In 2011 a workmate and a great master, [Diogo Baeder](https://github.com/diogobaeder), showed me [Project Euler](https://projecteuler.net/) and I fell in love with it. It has a LOT of Math problems that are simple enough to anyone that knows basic operations to solve but, the outstanding feature is: It gives you a simpler case already solved! Here is the first problem that the site shows:
 
-![Project Euler's example](http://imgur.com/Cy5h0G7)
+![Project Euler's example](http://i.imgur.com/Cy5h0G7.png)
 
 And my proposal is: Let's use Project Euler to teach TDD! And to do that you can use my crash course below.
 
@@ -45,7 +49,7 @@ And my proposal is: Let's use Project Euler to teach TDD! And to do that you can
 
 Let's first think that we need a case to make the first test and, guess what? Project Euler's problems ALWAYS give one for us, check it out:
 
-![Project Euler's use case](http://imgur.com/mmOtWjS)
+![Project Euler's use case](http://i.imgur.com/mmOtWjS.png)
 
 So we'll start by writing a test for this case: we expect that our multiple calculator class returns **23** when we pass **10** as parameter to its method ```sum```. Let's do it!
 
@@ -108,5 +112,7 @@ class MultipleCalculator(object):
 Finally, we've completed a TDD cycle and we can solve the problem by exchanging **10** by **1000** in our test or creating a simple script to get the answer.
 
 After doing 5 or 6 exercises you should be able to identify what need to be tested and how to achieve the result by repeating the Red, Green, Refactor mantra and it's time to find new ways to improve your TDD skills!
+
+If you want to try but have no idea how to start, please send me a message and I'll be pleased to help you out with your first problem/test!
 
 Hope it helps!
