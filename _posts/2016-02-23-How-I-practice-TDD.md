@@ -3,10 +3,6 @@ layout: default
 title: "TDD: How to use Math to get into it"
 ---
 
-## Acknowledgments
-
-I'd like to thank [Marcelo Vitoria](https://twitter.com/MarcVit) for his review and opinions that made this post readable, [Augusto Pascutti](https://twitter.com/augustohp) and [Eriksen Costa](https://twitter.com/eriksencp) for reviewing, feedback and references. Without they effort and precious time this post would not be possible.
-
 ## Who wants to start?
 
 This post was written thinking: "How to teach new devs TDD", but if you're an experienced developer and is searching for a way to start doing it may surprise you. I also use this "technique" to get used to new unit test frameworks and explore language constructions and best practices.
@@ -126,6 +122,10 @@ Before writing any "production code" - or code that will actually solve your pro
 Another thing that testing will do for you: **it will make you feel safe**. Imagine that you just arrived at a company, and your leader wants you to push code to production right away. Fortunately for you, the codebase has tests. By enforcing the constraints of the code, the test will assert that, given the input X, the result is Y.
 
 Now, you feel comfortable to make any changes you want, since you can always run the test and see if it passes. If it fails, you can always go back to a state before that, and start over. A year from now, you'll be writing tests for a new functionality, and those tests will protect your code against your own mistakes - when changing it in the future - and against newcomers' mistakes, when getting their hands on it for the first time.
+
+## Acknowledgments
+
+I'd like to thank [Marcelo Vitoria](https://twitter.com/MarcVit) for his review and opinions that made this post readable, [Augusto Pascutti](https://twitter.com/augustohp) and [Eriksen Costa](https://twitter.com/eriksencp) for reviewing, feedback and references. Without they effort and precious time this post would not be possible.
 
 ## Finale
 
