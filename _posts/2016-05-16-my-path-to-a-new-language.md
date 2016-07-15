@@ -9,7 +9,7 @@ related: [
 
 ## Some background...
 
-My first job as a developer was back in 2008 as an intern. In this company they used MS Visual Basic 6 and the weird [Pervasive SQL](https://en.wikipedia.org/wiki/Pervasive_PSQL). They spent (spent is not a good word in this context) a whole month teaching the interns how to code, how to write some basic SQL and after that I was solving some minor bugs, in other words I was I was been paid to learn! Isn't it the best job ever?!
+My first job as a developer was back in 2008 as an intern. In this company they used MS Visual Basic 6 and the weird [Pervasive SQL](https://en.wikipedia.org/wiki/Pervasive_PSQL). They spent (spent is not a good word in this context) a whole month teaching the interns how to code, how to write some basic SQL and after that I was solving some minor bugs. In other words, I was been paid to learn! Isn't it the best job ever?!
 
 I was pretty happy with Visual Basic: I wrote some programs to help my father with backups and migrations of his Access database/system and I did a little keystroker to help me collect loot for a MMORPG too! At this point I was earning a lot of money (for a 19 year old boy) and my father told me that I could even become a manager.
 
@@ -17,7 +17,7 @@ But, one day, in the lunch time, I saw one of my intern fellows writing some PHP
 
 Some months later I was hired by another company as a PHP developer intern! And from this day until August, 2015 I had a very, very happy marriage with PHP: I started to go to conferences, I met most of my friends and learned A LOT (most things that I've learned so far I did writing PHP and discussing with my PHP developer friends)!
 
-In 2015 I went to [Weta Cave](http://wetaworkshop.com/visit-us/workshop-tours/) in New Zealand and when I left the tour I decided that was time to change again (I felt that I wasn't being creative or learning something new for some time, in this was making me unhappy and not productive). When I arrived in Brazil I asked my CTO ([@marcelioleal](https://twitter.com/marcelioleal)) if I could join the mobile team and he said that would be awesome for me to try something different and agreed with the idea without blinking. I must confess, the feeling of starting over again is strange: it's very scary but it's very motivating too! I was really happy to learn new things and to learn C#, I developed a kind of "framework" to help me learning a new language which is the motivation of this post.
+In 2015 I went to [Weta Cave](http://wetaworkshop.com/visit-us/workshop-tours/) in New Zealand and when I left the tour I decided that was time to change again (I felt that I wasn't being creative or learning something new for some time, and this was making me unhappy and not productive). When I arrived in Brazil I asked my CTO ([@marcelioleal](https://twitter.com/marcelioleal)) if I could join the mobile team and he said that would be awesome for me to try something different and agreed with the idea without blinking. I must confess, the feeling of starting over again is strange: it's very scary but it's very motivating too! I was really happy to learn new things and to learn C#, I developed a kind of "framework" to help me learning a new language which is the motivation of this post.
 
 ## The "framework"
 
@@ -31,11 +31,11 @@ My advices in this step:
 * Search a book for beginners (the Beginning with X: From novice to professional is a good start) - I found that Quora lists gives better alternatives than StackOverflow for lists like this.
 * Use 1 hour (average) to complete the course and/or read the book per day (avoid the burnout, folks) - Take your time just remember to live your life too.
 
-By reading the book and doing the course you can apply some concepts read in the book and get feedback fast enough. The most important part here is to get used to the syntax, gotchas and other language habits, if you're feeling slow don't panic! It's really important to pay attention to the basics now, we're get more practical in the next phase.
+By reading the book and doing the course you can apply some concepts read in the book and get feedback fast enough. The most important part here is to get used to the syntax, gotchas and other language habits, if you're feeling slow don't panic! It's really important to pay attention to the basics now, we'll get more practical in the next phase.
 
 ### Getting some shit done
 
-After getting used to the syntax and some of the basics of the new language it's time to get something done! There are lots of problems out there to be solved in form of Katas, for example, but they may get you confused or frustrated so let's start with something less complicated. I already written about [Project Euler](https://projecteuler.net/) and do think that the first problems there are simple enough to not get you frustrated and hard enough so you can try the things you learned already. This step is the one that you should try a test framework for the new language, [Project Euler's problems are a great way to get used to tests](http://nelsonsar.github.io/2016/02/23/How-I-practice-TDD.html).
+After getting used to the syntax and some of the basics of the new language it's time to get something done! There are lots of problems out there to be solved in form of Katas, for example, but they may get you confused or frustrated so let's start with something less complicated. I've already written about [Project Euler](https://projecteuler.net/) and do think that the first problems there are simple enough to not get you frustrated and hard enough so you can try the things you learned already. This step is the one that you should try a test framework for the new language, [Project Euler's problems are a great way to get used to tests](http://nelsonsar.github.io/2016/02/23/How-I-practice-TDD.html).
 
 My advices in this step:
 
