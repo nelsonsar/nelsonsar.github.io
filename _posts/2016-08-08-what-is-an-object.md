@@ -13,7 +13,7 @@ Since I always wanted to make a basic tour thru OOP, here is my first post about
 
 ## Definition of an object
 
-The whole idea of an object is to represent something or, as [defined in Simula language][1]: *"simulate some aspect of reality"*. And with it we can create dogs, bicycles and even represent people! But, as in the real world, not everything is equal: dogs have different color, weight and height and the same goes for the other two examples, these **properties** are called **state**.
+The whole idea of an object is to represent something or, as defined in Simula language: *"simulate some aspect of reality"*. And with it we can create dogs, bicycles and even represent people! But, as in the real world, not everything is equal: dogs have different color, weight and height and the same goes for the other two examples, these **properties** are called **state**.
 
 ### State
 
@@ -101,5 +101,5 @@ This post wouldn't be possible without the help of [Augusto](https://twitter.com
 
 Most of this writing is based in what is described [here](https://www.amazon.com/Object-Oriented-Analysis-Design-Applications-3rd/dp/020189551X).
 
-* [1]: https://www.amazon.com/Object-Oriented-Analysis-Design-Applications-3rd/dp/020189551X
 * [Mathias Verraes' article](http://verraes.net/2014/09/objects-as-contracts-for-behaviour/)
+
