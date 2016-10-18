@@ -8,7 +8,7 @@ But, the whole point is: should we create all these mocks returning mocks? Or sh
 
 [John Cinnamond](https://twitter.com/jcinnamond) in a recent [talk](http://brightonruby.com/2016/the-point-of-objects-john-cinnamond/) makes a brilliant conclusion about OOP: it's a tool used to desconstruct a complex problem and defer decisions (implementations). By using it you (your team, your company, whatever) can focus in one problem at a time.
 
-More than a tool, OOP bundles data and bevahior so you can create (or stabilish using domain rules) your own truth (invariants) and define protocols (contracts) to provide interactions between objects, teams and clients (customers) and, tests are the way we document and validate our protocols but, it really shines when you need to defer decisions.
+More than a tool, OOP bundles data and bevahior so you can create (or stabilish using domain rules) your own truth ([invariants](https://en.wikipedia.org/wiki/Class_invariant)) and define protocols (contracts, [interfaces](https://pragprog.com/book/kpiod/interface-oriented-design) to provide interactions between objects, teams and clients (customers) and, tests are the way we document and validate our protocols but, it really shines when you need to defer decisions.
 
 ## Mocks as defer tools
 
@@ -33,7 +33,7 @@ end
 
 In the example above you don't have any idea of what `region` actually is or how it gets the salary information, I just describe how the interaction occurs.
 
-For me the reason to use mocks is: represent the interaction between objects while programming for an interface not for an implementation.
+For me the reason to use mocks is: represent the interaction between objects while [programming for an interface not for an implementation](http://www.artima.com/lejava/articles/designprinciples.html).
 
 Programming to an interface enables the replacement of the `region` dependency with anything that responds to the `salary_by` message (I can even create a fake class, to hide `region` implementation, using a `Hash` for example) and defer the decision of which ORM, database or library I'd like to use to another team or just do it later.
 
