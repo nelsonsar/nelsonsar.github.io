@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Why mocking fails"
+---
+
 # Why mocking fails?
 
 [Yegor arguments that fake objects are better than mocks](http://www.yegor256.com/2014/09/23/built-in-fake-objects.html) shows that mocks can be really hard to build when objects create another objects and these another objects create more objects and so on (maybe forever?) and I agree with it (this is the beginning of a **mock hell**).
