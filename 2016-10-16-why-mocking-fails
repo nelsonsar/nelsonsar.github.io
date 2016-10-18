@@ -1,6 +1,6 @@
 # Why mocking fails?
 
-[Yegor argues that fake objects are better than mocks](http://www.yegor256.com/2014/09/23/built-in-fake-objects.html) shows that mocks can be really hard to build when objects create another objects and these another objects create more objects and so on (maybe forever?) and I agree with it (this is the beginning of a **mock hell**).
+[Yegor arguments that fake objects are better than mocks](http://www.yegor256.com/2014/09/23/built-in-fake-objects.html) shows that mocks can be really hard to build when objects create another objects and these another objects create more objects and so on (maybe forever?) and I agree with it (this is the beginning of a **mock hell**).
 
 But, the whole point is: should we create all these mocks returning mocks? Or should we rely on the fake objects the post suggests?
 
