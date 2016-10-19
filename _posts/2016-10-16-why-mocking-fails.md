@@ -11,7 +11,7 @@ But, the whole point is: should we create all these mocks returning mocks? Or sh
 
 ## The great virtue of OOP
 
-[John Cinnamond](https://twitter.com/jcinnamond) in a recent [talk](http://brightonruby.com/2016/the-point-of-objects-john-cinnamond/) makes a brilliant conclusion about OOP: it's a tool used to desconstruct a complex problem and defer decisions (implementations). By using it you (your team, your company, whatever) can focus in one problem at a time.
+[John Cinnamond](https://twitter.com/jcinnamond) in a recent [talk](http://brightonruby.com/2016/the-point-of-objects-john-cinnamond/) makes a brilliant conclusion about OOP: it's a tool used to deconstruct a complex problem and defer decisions (implementations). By using it you (your team, your company, whatever) can focus in one problem at a time.
 
 More than a tool, OOP bundles data and bevahior so you can create (or stabilish using domain rules) your own truth ([invariants](https://en.wikipedia.org/wiki/Class_invariant)) and define protocols (contracts, [interfaces](https://pragprog.com/book/kpiod/interface-oriented-design) to provide interactions between objects, teams and clients (customers) and, tests are the way we document and validate our protocols but, it really shines when you need to defer decisions.
 
@@ -44,12 +44,12 @@ Programming to an interface enables the replacement of the `region` dependency w
 
 ## You can only defer what you can control
 
-But, in order to enable mocks hidden powers (or make them shine) you need to control them and that's where mocks always goes wrong...
+But, in order to enable mocks hidden powers (or make them shine) you need to control them and that's where mocking always goes wrong...
 
 The [Mock Roles, not Objects paper](http://www.jmock.org/oopsla2004.pdf) stabilish a set of simple rules (ok, not rules... guidelines) for mocks and the most important one (and ignored most of the time too), IMO, is: "Only Mock Types You Own". Following this simple guideline you'll **always** have to mock an interface created by you, which is most of the time simpler than the one exposed by a library (because of the level of abstraction it needs).
 
 **Simpler interfaces == easier to test and mantain** (less public methods, less coupling and higher cohesion).
 
-So, if you find yourself creating a mock that returns other mock or mocking a third party library think twice, be sure that the operation shouldn't be better encapsulated (maybe is a missing domain aspect in your app, for example) and don't be afraid of changing it if you think a mock hell is knocking at your door (or can emerge soon).
+So, if you find yourself creating a mock that returns other mock or mocking a third-party library think twice, be sure that the operation shouldn't be better encapsulated (maybe is a missing domain aspect in your app, for example) and don't be afraid of changing it if you think a mock hell is knocking at your door (or can emerge soon).
 
 Happy testing!
