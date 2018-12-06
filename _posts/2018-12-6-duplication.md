@@ -37,4 +37,4 @@ The thing about the duplicated code in this particular case is: your intents wit
 
 ### Duplicated code as a box of problems
 
-I firmly believe that [Duplication (inadvertent or purposeful duplication) can lead to maintenance nightmares, poor factoring, and logical contradictions](http://wiki.c2.com/?DontRepeatYourself) and that's why - after seeing a lot of this happening in my life - I have a hard time with duplicated code.
+Even when duplication seems to be the only way to do something I think a lot about it and I firmly believe that [Duplication (inadvertent or purposeful duplication) can lead to maintenance nightmares, poor factoring, and logical contradictions](http://wiki.c2.com/?DontRepeatYourself) and that's why - after seeing a lot of this happening in my life - I have a hard time with duplicated code.
