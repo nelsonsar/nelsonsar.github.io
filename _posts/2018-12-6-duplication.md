@@ -3,8 +3,6 @@ layout: default
 title: "Duplication"
 ---
 
-## Duplication
-
 Duplication is something I have a hard time dealing with. It's amongst the things I have on my review checklist and one of the things that - in my humble opinion - when removed make software design much better. It was classified as a bad smell in 1999 by Fowler, and I thought that, almost 20 years later, saying *"duplication is not good"* won't be needed. I was wrong.
 
 ### Duplicated code as an intention
@@ -17,7 +15,7 @@ Besides the fact the example is too simple, it shows that even with the structur
 
 ### Duplicated code as missing concept
 
-Copying and pasting something is far easier than writing things for scratch. Sometimes, while finding an abstraction, it's easier to duplicate code [to see common patterns and extracted them](https://martinfowler.com/ieeeSoftware/repetition.pdf). It may be a superclass, a new collaborator or even a function that helps you to get to an idea that makes the duplication gone. If you do TDD, you can use the refactoring step go thru the duplication and remove it having tests to back you up. The problem is people taking [Sandi Metz quote](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction) to spread unjustified duplication all over the code... I agree with her, don't get me wrong, it's far easier to duplicate code to find a better (or brand new) abstraction but, she never told you should stop right there - she meant it as a process to isolate and extract patterns from the duplications you created.
+Copying and pasting something is far easier than writing things from scratch. Sometimes, while finding an abstraction, it's easier to duplicate code [to see common patterns and extracted them](https://martinfowler.com/ieeeSoftware/repetition.pdf). It may be a superclass, a new collaborator or even a function that helps you to get to an idea that makes the duplication gone. If you do TDD, you can use the refactoring step go thru the duplication and remove it having tests to back you up. The problem is people taking [Sandi Metz quote](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction) to spread unjustified duplication all over the code... I agree with her, don't get me wrong, it's far easier to duplicate code to find a better (or brand new) abstraction but, she never told you should stop right there - she meant it as a process to isolate and extract patterns from the duplications you created.
 
 ### Duplicated code as lack of experience
 
