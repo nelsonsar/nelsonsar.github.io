@@ -1,5 +1,9 @@
 timezone: America/Sao_Paulo
-layout: default
 markdown: kramdown
-gems:
+theme: minima
+title: Remendando ideias
+twitter_username: nelson_senna
+github_username: nelsonsar
+rss: rss
+plugins:
     - jekyll-sitemap
