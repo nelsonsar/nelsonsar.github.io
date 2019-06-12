@@ -9,3 +9,11 @@ $brand-color:      #1C92F2;
 $orange-color:     #f9a824;
 
 @import "minima";
+
+body {
+    font-size: 1.2em;
+}
+
+.page-content h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
