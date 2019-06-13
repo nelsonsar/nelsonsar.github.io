@@ -17,8 +17,8 @@ A grande maioria dos desenvolvedores usa o Inglês para escrever código e, isso
 
 Para transformar um verbo em um substantivo em Inglês temos dois caminhos[[3]][3]:
 
-1) Prefixando um artigo "a" antes do seu uso
-2) Usando os sufixos: "er", "or", "tion" or "sion"
+1. Prefixando um artigo "a" antes do seu uso
+2. Usando os sufixos: "er", "or", "tion" or "sion"
 
 Como uma classe geralmente não usa conectores e nem artigos, a segunda opção foi a escolhida para resolver a limitação imposta pelo Java. E, partir daí apareceram alguns nomes conhecidos: Manager[[4]][4], *ServiceLocator*, *Adapter* e, a lista continua. Se antes eu tinha:
 
@@ -60,9 +60,9 @@ Assim, como no refactoring, esses são os "cheiros" que eu considero mais import
 
 Quando eu paro para analisar nomes eu geralmente adoto uma dessas três estratégias:
 
-1) A partir do nome da classe, criar um objeto com estado e métodos operando nesse estado.
-2) Converter a classe num serviço mudando seu nome para um verbo que deixa claro o objeto que ele opera.
-3) Criar um terceiro objeto que relaciona dois outros (que podem ser a entrada e saída ou só um termo que não foi mapeado)
+1. A partir do nome da classe, criar um objeto com estado e métodos operando nesse estado.
+2. Converter a classe num serviço mudando seu nome para um verbo que deixa claro o objeto que ele opera.
+3. Criar um terceiro objeto que relaciona dois outros (que podem ser a entrada e saída ou só um termo que não foi mapeado)
 
 ### Um novo objeto com estado e métodos
 
